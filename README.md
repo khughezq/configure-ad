@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-After we create the Domain Controller and Client VM we want to set the Domain Controller’s NIC Private IP address to be static. We go to Networking, Network Settings, and then configure our Network Interface Card. 
+1. After we create the Domain Controller and Client VM we want to set the Domain Controller’s NIC Private IP address to be static. We go to Networking, Network Settings, and then configure our Network Interface Card. 
 </p>
 <br />
 
@@ -41,7 +41,7 @@ After we create the Domain Controller and Client VM we want to set the Domain Co
 
 </p>
 <p>
-Then we will set Client-1's DNS settings to DC-1's private IP address. After we retrieve DC-1's private IP address in our Client-1 VM we go to Networking, Network settings, click on the Network Interface Card, then go to DNS servers, and go to custom to input DC-1's private IP address. This allows us to join the Domain.  
+2. Then we will set Client-1's DNS settings to DC-1's private IP address. After we retrieve DC-1's private IP address in our Client-1 VM we go to Networking, Network settings, click on the Network Interface Card, then go to DNS servers, and go to custom to input DC-1's private IP address. This allows us to join the Domain.  
 </p>
 <br />
 
