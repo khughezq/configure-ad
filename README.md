@@ -21,9 +21,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create the Domain Controller VM (Windows Server 2022) & Client VM (Windows 10)
-- Connect the Client-1 VM to the Domain Controller VM
-- Step 3
-- Step 4
+- Connect the Client-1 VM DNS to the Domain Controller VM
+- Install Active Directory Domain Services
+- Promote the server to a domain controller
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -41,23 +42,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-2. Then we will set Client-1's DNS settings to DC-1's private IP address. After we retrieve DC-1's private IP address in our Client-1 VM we go to Networking, Network settings, click on the Network Interface Card, then go to DNS servers, and go to custom to input DC-1's private IP address. This allows us to join the Domain.  
+2. Then we will set Client-1's DNS settings to DC-1's private IP address. After we retrieve DC-1's private IP address in our Client-1 VM we go to Networking, Network settings, click on the Network Interface Card, then go to DNS servers, and go to custom to input DC-1's private IP address.  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/05ae2291-2ada-4597-8a2f-f09bf1f27db5)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3. To Install Active Directory Domain Services. We go into the start menu, Server Manager, Add Roles and Features, Server Selection, click on DC-1, the Active Directory Domain Services, and Add Features.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/18dc721d-3e7a-4f33-8d74-894de664cee7)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+4. Promote the server to a domain controller. Add a new forest, and add our Root domain name 'mydomain.com'. To do this in our Server Manager we go to Post-deployment Configuration.
 </p>
 <br />
 
