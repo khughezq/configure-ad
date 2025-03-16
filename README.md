@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Connect the Client-1 VM DNS to the Domain Controller VM
 - Install Active Directory Domain Services
 - Promote the server to a domain controller
-- 
+- Create a Domain Admin user
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -56,7 +56,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-![image](https://github.com/user-attachments/assets/18dc721d-3e7a-4f33-8d74-894de664cee7)
+<img width="343" alt="image" src="https://github.com/user-attachments/assets/f9300335-349e-499c-a82b-6ca93ded849c" />
 
 </p>
 <p>
@@ -68,7 +68,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+5. Create a Domain Admin user within the domain. Start Menu, Windows Adminstrative Tools, Active Directory Users and Computers  
 </p>
 <br />
 
