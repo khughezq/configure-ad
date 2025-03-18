@@ -28,6 +28,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Add Jane Doe to Domain Admins Security Group
 - Join Client-1 to the Domain
 - Create a new organizational unit called Clients and add Client-1
+- Setup Remote Desktop for non-admin users on Client-1
+- Create a bunch of additional users
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -102,6 +104,31 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 8. Create a new Organizational Unit called Clients. 
+</p>
+<br />
+
+<p>
+![image](https://github.com/user-attachments/assets/95d3bc37-78a0-4827-99b0-76ed22f59bc7)
+
+</p>
+<p>
+9. Allow non-admin users to join our domain. We go to the Start menu, go to system, Remote Desktop, User Accounts, and then add 'Domain Users'. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+10. Create more users for our Active Directory in DC-1. Open Windows Powershell ISE as an admin, paste the script, 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
