@@ -25,6 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Install Active Directory Domain Services
 - Promote the server to a domain controller
 - Create a Domain Admin user
+- Add Jane Doe to Domain Admins Security Group
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -65,10 +66,30 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
+![image](https://github.com/user-attachments/assets/9418b48a-decd-4674-a01e-783767c841bd)
+![image](https://github.com/user-attachments/assets/fc7630ef-25fe-4877-835e-5d586b25b814)
+![image](https://github.com/user-attachments/assets/602c956b-b85e-4b1f-8946-39f40153a51b)
+
+</p>
+<p>
+5. Create a Domain Admin user within the domain. Start Menu, Windows Adminstrative Tools, Active Directory Users and Computers, and create an Organizational Unit by right clicking on mydomain and selecting new. Our new admin user is Jane Doe. To create her we go to our _ADMINS folder, right click on New, then User. 
+</p>
+<br />
+
+<p>
+![image](https://github.com/user-attachments/assets/7ad7e362-c456-4f92-aa56-aa71d9242892)
+
+</p>
+<p>
+6. Add Jane Doe to the Domain Admins Security Group. To do this we right click on Jane's account, go to properties, member of, add, and then type in the object names which is 'domain admins'.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-5. Create a Domain Admin user within the domain. Start Menu, Windows Adminstrative Tools, Active Directory Users and Computers  
+7. 
 </p>
 <br />
 
