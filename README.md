@@ -30,6 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a new organizational unit called Clients and add Client-1
 - Setup Remote Desktop for non-admin users on Client-1
 - Create a bunch of additional users
+- Test a new users access
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -117,18 +118,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/9b74fe11-7591-4dcf-8696-b014a872fda2)
+
 </p>
 <p>
-10. Create more users for our Active Directory in DC-1. Open Windows Powershell ISE as an admin, paste the script, 
+10. Create more users for our Active Directory in DC-1. Open Windows Powershell ISE as an admin, copy and paste the script, to get 1000 more users. We can now observe the new users in the Active Directory in the Employees OU. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="334" alt="image" src="https://github.com/user-attachments/assets/39141f08-da39-4705-9362-6ed721e99d79" />
+![image](https://github.com/user-attachments/assets/42a5b452-cc6f-4970-9465-799004309103)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+11. Login in Client-1 as the new user. 'bat.hop' Opened Powershell to verify that we are a different domain user. For me it's bat.hop
 </p>
 <br />
 
