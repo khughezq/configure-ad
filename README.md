@@ -26,6 +26,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Promote the server to a domain controller
 - Create a Domain Admin user
 - Add Jane Doe to Domain Admins Security Group
+- Join Client-1 to the Domain
+- Create a new organizational unit called Clients and add Client-1
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -86,18 +88,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/ccd891bc-b41e-4ea4-b350-bb2ea54a8634)
+
 </p>
 <p>
-7. 
+7. To join Client-1 to the Domain we go to the start menu, select system, rename this PC, under Computer Name, you click Change, and then you add Client-1 as a member of in the Domain section 'mydomain.com'.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/2353dfb4-f7c3-4a93-9642-ed96f60f8fbc)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+8. Create a new Organizational Unit called Clients. 
 </p>
 <br />
 
