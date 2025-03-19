@@ -128,6 +128,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 <img width="334" alt="image" src="https://github.com/user-attachments/assets/39141f08-da39-4705-9362-6ed721e99d79" />
+
+
   
 <img width="305" alt="image" src="https://github.com/user-attachments/assets/816c6248-f0f8-44b6-9346-d341362a3067" />
 
